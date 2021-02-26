@@ -1,0 +1,74 @@
+
+body {
+    background: #4b6cb7;  /* para navegadoes antiguos */
+    background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size: 16px;
+}
+
+h1, p, a {
+    font-family: 'Carrois Gothic SC', sans-serif;
+    display: block;
+    text-align: center;
+    line-height:.8;
+    color: white;
+}
+.contenido {
+    max-width: 120rem;
+    margin: 5rem auto 0 auto;
+    color: white;
+    font-size: 3rem;
+    font-family: 'Carrois Gothic SC', sans-serif;
+}
+h1 {
+    font-size: 4rem;
+}
+a {
+    font-size: 1.4rem;
+}
+p {
+    font-size: 2.2rem;
+}
+
+.hashtag {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-size: 2rem;
+    text-align: center;
+}
+/*style nav*/
+.nav-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.nav-main a{
+    padding: 1rem;
+    background-color: #4b6cb7;
+    display: inline;
+    margin: 0.3rem;
+    text-decoration: none;
+}
+/*Style screen*/
+.pantalla{
+    background-color: rgb(57, 83, 66);
+}
+#popup{
+    position: absolute;
+    margin: 0 0 0 2rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: #1e8359;
+    display: none;
+    width: 25rem;
+    top: 40%;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+}
+/*Media para movil*/
+@media (max-width:760px){
+    #popup{
+        width: 73%;
+    }
+}
